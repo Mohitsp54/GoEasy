@@ -11,6 +11,8 @@ import Register from "./Pages/Users/Register";
 import AdminRegister from "./Pages/Admin/AdminRegister";
 import Flights from "./Pages/Users/flights";
 import Hotels from "./Pages/Users/hotels";
+import AdminFlights from "./Pages/Admin/AdminFlights";
+import AdminHotels from "./Pages/Admin/AdminHotels";
 
 function App() {
   return (
@@ -32,6 +34,22 @@ function App() {
             element={
               <ProtectedRoute allowedRole="admin">
                 <AdminDashboard />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/admin/flights"
+            element={
+              <ProtectedRoute allowedRole="admin">
+                <AdminFlights />
+              </ProtectedRoute>
+            }
+          />
+          <Route
+            path="/admin/hotels"
+            element={
+              <ProtectedRoute allowedRole="admin">
+                <AdminHotels />
               </ProtectedRoute>
             }
           />
