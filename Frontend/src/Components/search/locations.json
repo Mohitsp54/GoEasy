@@ -1,0 +1,42 @@
+[
+  {
+    "city": "Mumbai",
+    "code": "BOM",
+    "airport": "Chhatrapati Shivaji International Airport"
+  },
+  {
+    "city": "New Delhi",
+    "code": "DEL",
+    "airport": "Indira Gandhi International Airport"
+  },
+  {
+    "city": "Bangkok",
+    "code": "BKK",
+    "airport": "Bangkok"
+  },
+  {
+    "city": "Bangalore",
+    "code": "BLR",
+    "airport": "Kempegowda International Airport"
+  },
+  {
+    "city": "Pune",
+    "code": "PNQ",
+    "airport": "Pune Airport"
+  },
+  {
+    "city": "Hyderabad",
+    "code": "HYD",
+    "airport": "Rajiv Gandhi International Airport"
+  },
+  {
+    "city": "Chennai",
+    "code": "MAA",
+    "airport": "Chennai International Airport"
+  },
+  {
+    "city": "Kolkata",
+    "code": "CCU",
+    "airport": "Netaji Subhash Chandra Bose International Airport"
+  }
+]

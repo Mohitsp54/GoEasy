@@ -17,6 +17,9 @@ function App() {
     <AuthProvider>
       <BrowserRouter>
         <Routes>
+          {/* Default redirect to login for root path */}
+          <Route path="/" element={<Navigate to="/login" replace />} />
+
           {/* Public Routes */}
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
